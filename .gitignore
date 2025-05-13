@@ -22,3 +22,12 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# vscode settings
+.vscode/
+
+# env
+.env*
+
+# マニュアル
+manual.md
