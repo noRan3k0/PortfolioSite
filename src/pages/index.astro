@@ -1,7 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Layout from '../layouts/BlogPost.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -11,19 +10,30 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
-		<main>
-			<h1>noRan3k0</h1>
+		<Layout
+			title="About Me"
+			description="noRan3k0について"
+			pubDate={new Date('May 08 2025')}
+			heroImage="/blog-placeholder-about.jpg"
+		>
 			<p>
-				皆様、こんにちは。<br>
-                こちらはnoRan3k0(のらねこ)のポートフォリオサイトです。
+				本名等、個人情報は就活エージェントのプロフィール等からご確認お願いします。
 			</p>
-            <ul>
-                <li>About -> About</li>
-                <li>制作物・活動に関して -> blog</li>
-                <li>お問い合わせ -> contact</li>
-            </ul>
-		</main>
-		<Footer />
+			<p>
+				noRan3k0(のらねこ)と言います。
+				2025年4月から大学院に進学しました。
+
+				学部時代の卒業研究では、
+				ハニーポットCowrieを使用し、収集した攻撃データの分析に関わる研究を行いました。
+				大学院では、攻撃者の実行するコマンドの分析に関する研究を行う予定です。
+			</p>
+			<ul>
+				<li>使用言語： Python, C </li>
+				<li>使用フレームワーク: Flask, Astro, Django</li>
+				<li>その他使用ツール・サービス: Netlify, Unity, Github, WSL</li>
+			
+				<li>趣味: CTF</li>
+			</ul>
+		</Layout>
 	</body>
 </html>
