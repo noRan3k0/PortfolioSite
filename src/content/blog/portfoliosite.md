@@ -1,13 +1,14 @@
 ---
 title: 'PortfolioSite'
 description: ''
-pubDate: 'May 2025'
-heroImage: '/blog-placeholder-1.jpg'
+pubDate: 'June 2025'
+heroImage: '/noRan3k0.jpg'
 ---
 
 ポートフォリオ用のサイト(本サイト)を制作しました。
 
-Java scriptのフレームワークであるAstroを用いて、管理しやすい静的サイトを目指して制作しました。
-制作物に関する記事はマークダウンで管理しています。
+Webサイト構築用のフレームワークであるAstroを用いて制作しました。
+制作物に関する記事をマークダウンで管理するという点が個人的に扱いやすく、Astroのブログテンプレートをベースとしています。
+CSSに関しては、生成AIを利用しています。
 
-ソースは`https://github.com/noRan3k0/PortfolioSite`からご確認いただけます。
+ソースは`https://github.com/noRan3k0/PortfolioSite`からご確認ください。
